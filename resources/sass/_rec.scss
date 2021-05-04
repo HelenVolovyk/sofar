@@ -1,0 +1,161 @@
+.rec, 
+.rec2{
+	background-color: rgb(228, 228, 228); 
+	height:600px; 
+	width: 100%; 
+	position:relative;
+	@media(max-width: 767px){
+		height:400px; 
+	}
+	
+}
+.rec__block{
+	// background-color: lavender; 
+	position: absolute; 
+	top: 15%; 
+	width: 90%; 
+	height: 600px; 
+	margin-left: 5%; 
+	margin-right: 5%; 
+	display: flex;
+	@media(max-width: 767px){
+		height:400px; 
+		flex-direction: column;
+
+	}
+}
+.rec__block-1{
+	
+	width: 50%; 
+	height: 100%; 
+}
+.rec__block-2{
+	background-color: rgb(145, 191, 243); 
+	width: 50%; 
+	height: 100%; 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	flex-direction: column; 
+	padding: 0 5%;
+}
+.rec__block-2 p,
+.rec__cont p{
+	margin-bottom: 30px;
+	color: white;
+	padding: 5%;
+	position: relative;
+	font-size: calc(16px + 4 * (100vw / 1280));
+}
+.rec__block-2 p::after{
+	content: '';
+	position: absolute;
+	display: block;
+	padding-top: 15px;
+	width: 10%;
+	left: 45%;
+	right: 45%;
+	border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+@media(max-width: 767px){
+	.rec__block-1,
+	.rec__block-2{
+		width: 100%;
+			
+	}
+	.rec__block-2 p,
+	.rec__cont p{
+		padding-top: 20%;
+		height: 800px;
+		margin-bottom: 0px;
+	}
+	.rec__link{
+		margin-bottom: 20px;
+	}
+}
+
+.rec2{
+display: flex;
+margin: 0 auto;
+
+}
+.rec__cont{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+	padding: 15px;
+}
+.rec__cont p{
+	
+	margin-bottom: 40px;
+	
+}
+
+.rec__cont p::after{
+	content: '';
+	position: absolute;
+	display: block;
+	padding-top: 15px;
+	width: 10%;
+	left: 45%;
+	right: 45%;
+	border-bottom: 1px solid rgb(255, 255, 255);
+}
+a.rec__link{
+	font-size: calc(14px + 2 * (100vw / 1280));
+	padding: 5px;
+	width: 200px;
+}
+.rec__block-2 a{
+	background:  rgba(168, 202, 241, 0.808); 
+}
+.rec__cont a{
+	background: rgb(145, 191, 243, 0.5); 
+	color: #0056b3;
+}
+a.rec__link:hover{
+	color: white;
+}
+@media(max-width: 767px){
+	.rec__cont h4{
+		font-size: 1.2rem;
+		padding-top: 30%;
+	}
+	.rec__cont{
+		width: 100%;
+	}
+}
+
+#icon{
+	margin-top: 15em;
+	
+}
+
+.ic{
+	display: flex;
+	justify-content: center;
+}
+.ic__icon{
+	display: flex;
+	width: 30%;
+	justify-content: space-between;
+	align-items: center;
+}
+i.fa.fa-delicious{
+	font-size: 50px;
+	color: gray;
+	
+}
+@media(max-width:767px){
+	#icon{
+		margin-top: 12em;
+	}
+	.ic__icon{
+		
+		width: 70%;
+		
+	}
+}

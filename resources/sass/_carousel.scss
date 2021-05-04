@@ -1,0 +1,46 @@
+.carousel-item{
+	height: 100vh;
+	position: relative;
+
+	}
+.carousel-caption{
+	 top: 43%;
+	 text-transform: uppercase;
+	 width: 50%;
+	
+	
+}
+.carousel__text{
+	position: absolute;
+	top: 43%;
+	text-transform: uppercase;
+	width: 50%;
+	left: 25%;
+	right: 25%;
+}
+.carousel__text h1 {
+	font-size: calc(22px + 26 * (100vw / 1280));
+	font-weight: 700;
+	letter-spacing: .3rem;
+	padding-bottom: .1rem;
+
+}
+.carousel__text h3 {
+	font-size: calc(14px + 20 * (100vw / 1280));
+	padding-bottom: 1.6rem;
+
+}
+
+h3.heading {
+	font-size: 1.9rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 1.9rem;
+}
+.heading__underline {
+	width: 3rem;
+	height: .2rem;
+	background-color: #1ebba3;
+	margin: 0 auto 2rem;
+
+}

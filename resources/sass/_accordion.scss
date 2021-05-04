@@ -1,0 +1,44 @@
+.ac-block__item{
+	margin-bottom: 20px;
+}
+.ac-block__title {
+	position: relative;
+	cursor: pointer;
+	padding-left: 30px;
+	color: $blue;
+	
+}
+.ac-block__title:before,
+.ac-block__title:after {
+	content: '';
+	width: 10px;
+	height: 1px;
+	background-color: rgb(122, 122, 122);
+	position: absolute;
+	margin-top: 10px;
+	margin-right: 20px;
+	transition: all 0.3s ease 0s;
+}
+.ac-block__title:before {
+	transform: rotate(40deg);
+	left: 0;
+}
+.ac-block__title:after {
+	transform: rotate(-40deg);
+	left: 8px;
+}
+.ac-block__text {
+	display: none;
+	padding: 10px;
+	
+}
+.ac-block__title.active:before,
+.ac-block__title.active:after {
+	background-color: rgb(255, 0, 0);
+}
+.ac-block__title.active:before{
+	transform: rotate(-40deg);
+}
+.ac-block__title.active:after {
+	transform: rotate(40deg);
+}

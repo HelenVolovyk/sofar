@@ -1,0 +1,249 @@
+.scale {
+	display: inline-block; /* Строчно-блочный элемент */
+	overflow: hidden; /* Скрываем всё за контуром */
+  }
+  .scale img {
+	transition: 1s; /* Время эффекта */
+	display: block; /* Убираем небольшой отступ снизу */
+  }
+  .scale img:hover {
+	transform: scale(1.2); /* Увеличиваем масштаб */
+  }
+  .cart-description {
+	  height: 16px;
+  }
+
+.sentence {
+	// width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.card{
+	border: none; 
+}
+.card__btn{
+	opacity: 0;
+	@media(max-width:767px){
+	opacity: 1;
+	}
+}
+.btn__line{
+	display: flex;
+	opacity: 0;
+	@media(max-width:767px){
+		opacity: 1;
+		}
+}
+
+
+.block1{
+	background-color: $cyan;
+	width: 50px;
+	height: 2px;
+	margin-top: 6px;
+}
+.block2{
+	width: 0;
+	height: 0;
+	border-bottom: 7px solid transparent;
+	border-top: 7px solid transparent;
+	border-left: 25px solid $cyan;
+}
+
+.block1:hover,
+.block2:hover{
+	width: 100%;
+	transition: width 0.5s ease-out; /*задаём время анимации*/
+}
+.card:hover{
+	box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 0 10px 10px rgba(0,0,0,0.22);
+	transition: 0.5s ease-in-out;
+}
+.card:hover .card__btn{
+	opacity: 1;
+	transition: 0.5s ease-in-out;
+}
+.card:hover .btn__line{
+	opacity: 1;
+	transition: 0.5s ease-in-out;
+}
+
+
+a.cart__link:hover:after,
+a.cart__link:focus:after{
+	width: 0%;
+}
+
+.about__product-wrapper{
+	width: 100%;
+}
+.tabs-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+.tab-input{
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.tabs__content{
+	width: 100%;
+	display: none;
+	padding: 20px;
+	// background-color: rgb(241, 241, 241);
+}
+.tab{
+	text-align: center;
+	padding: 20px ;
+	flex-basis: 50%;
+	margin-bottom: 0;
+	color: $blue;
+	
+}
+// .tab:after{
+// 	display: block;
+// 	position: absolute;
+// 	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+// 	width: 0;/*задаём длинну линии до наведения курсора*/
+// 	height: 2px; /*задаём ширину линии*/
+// 	background-color: $blue; /*задаём цвет линии*/
+// 	content: "";
+// 	transition: width 0.3s ease-out; /*задаём время анимации*/
+// }
+
+
+#tab-1:checked ~ .tab-1{
+	// background-color: rgb(230, 230, 230);
+	
+	border-bottom: 2px solid $blue; 
+}
+#tab-1:checked ~ .content-1{
+	display: block;
+}
+#tab-2:checked ~ .tab-2{
+	// background-color: rgb(216, 216, 216);
+	border-bottom: 2px solid $blue; 
+
+}
+#tab-2:checked ~ .content-2{
+	display: block;
+}
+
+.query__result{
+	font-size: 20px;
+	font-style: italic;
+	color: #3490dc;
+}
+.thumbnail img {
+	max-width: 150px;
+}
+
+.cart_item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.price {
+	font-weight: bold;
+	font-size: 18px;
+	color: rgb(88, 84, 84);
+	margin-left: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.printPrice {
+	color: rgb(122, 120, 120);
+	font-weight: normal;
+	font-size: 16px;
+}
+
+
+
+.card-text {
+	color: gray;
+	text-align: left;
+}
+
+.btn {
+	margin-right: 5px;
+}
+
+.button_center {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+}
+
+.row-right {
+	text-align: right !important;
+}
+
+
+.cart-img {
+	position: relative;
+}
+
+.cart-link {
+	position: absolute;
+	right: 5%;
+
+	padding-top: 5%;
+	opacity: 0.4;
+}
+
+.cart-link:hover {
+	opacity: 1;
+}
+
+.row-link a {
+	opacity: 0.2;
+	background-color: rgb(255, 255, 255);
+	width: 100%;
+	height: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.fa-heart-o:hover {
+	color: red;
+}
+
+i.fa-heart-o {
+	color: grey;
+
+}
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+input[type=product_count] {
+	width: 30px;
+}
+
+.product_category {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.form_star {
+	right: 0;
+}
+
+.button_center {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+}

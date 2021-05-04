@@ -1,0 +1,68 @@
+footer{
+	margin-top: 20px;
+}
+.container.footer{
+	margin-bottom: 2rem;
+}
+#footer__email{
+	padding-right: 0px;
+	width: 200px;
+ }
+
+.footer__btn{
+	padding-left: 0px;
+	width: 100px;
+}
+.text-muted,
+.footer-brand{
+	font-size: 17px;
+}
+
+@media(max-width: 767px)
+{
+	.footer{
+		height: 80vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.team{
+		padding-top: 20%;
+
+	}
+	.text-muted,
+	.footer-brand{
+		font-size: 18px;
+	}
+	
+	#footer__email{
+		width: 100%;
+		
+ 	}
+	.footer__btn{
+		width: 100%;
+		margin-right: 0px;
+	}
+	.row__footer-brand{
+		margin-top: 0px;
+	}
+	#app{
+		margin-bottom: 0px;
+	}
+	.content{
+		margin-bottom: 0px;
+	}
+	footer{
+		margin-top: -15px;
+	}
+	.footer__fa{
+		font-size: 20px;
+		padding-right: 15px;
+	}
+}
+.nano {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: gray	;
+}
