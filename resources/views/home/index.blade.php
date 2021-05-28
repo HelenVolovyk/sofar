@@ -12,27 +12,58 @@
 		</div>
 		@endif
 </div>
-<section>
-		<!--- Start Carousel Section -->
-		{{-- <div class="container-fluid">
+
+
+		 <!--- Start Carousel Section -->
+			
+	 {{-- <div class="container-fluid"> --}}
+
+		<div class="content">
 			@include('inc.slider')
-		</div> --}}
-		<!--- End Carousel Section -->
-</section>
+		</div>
+		{{-- </div>  --}}
+		<!--- End Carousel Section --> 
 
 
+@include('home.slick_one')
 
-<div class="content">
-	<div class="container">
-		<div class="mt-4 mb-4  wow fadeInUp" >
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate atque asperiores nostrum quam enim obcaecati tempori tainerbus eveniet numquam, cumque porro ad, rerum repudiandae earum placeat, libero recusandae. Voluptate, praesentium laborum?</p>
+
+<main>
+	<div id="wb">
+		 <div class="row centered">
+
+			  <div class="col-lg-12">
+					<div class="wb_cont mt-5  wow fadeInUp"></div>
+					<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+						 labore
+						 et dolore magna aliqua</p>
+			  </div>
+			  {{-- <br><br><br></br> --}}
+		 </div>
+	</div>
+</main>
+
+
+	<div class="row centered">
+		<div class="col-lg-12 m-auto">
+			 <div class="lg_cont wow fadeInUp">
+				 <span>медицина и косметология</span>
+				  <div class="sofar">
+						<h2>SOFAR </h2>
+						<i class="fa fa-plus" aria-hidden="true"></i>
+				  </div>
+			</div>
 		</div>
 	</div>
 
 
-<section>
-	@include('home.prod')
-</section>
+	
+
+	<section>
+		@include('home.remAndSell')
+	</section>
 
 
 
@@ -46,14 +77,14 @@
 		
   </div>
  
-{{-- @each('admin.images.show', $otherimage, 'otherimage') --}}
+
     
-  	<section style="">
+  	<section>
 		{{-- @include('home.rec') --}}
 	</section> 
 
 	<section>
-		@include('home.slick_one')
+	
 	</section>
 
 

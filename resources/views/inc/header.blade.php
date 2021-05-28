@@ -13,19 +13,19 @@
 			<ul class="header__list">
 				
 				
-			
+				<li class="header__link">
+					<a class="header__link  <?php if ($url == "/shares") { echo ' active';}?>" href={{route('page', [app()->getLocale(),'shares'])}}>{{ __('РЕМОНТ') }}</a>
+				</li>
 					<li class="header__link">
-						<a class="header__link <?php if ($url == "/shop") { echo ' active';}?>" href={{route('shop', [app()->getLocale()])}}>{{ __('Shop') }}</a>
+						<a class="header__link <?php if ($url == "/shop") { echo ' active';}?>" href={{route('shop', [app()->getLocale()])}}>{{ __('ПРОДАЖА') }}</a>
 					</li>
 				
 					<li class="header__link">
-						<a class="header__link  <?php if ($url == "/payment") { echo ' active';}?>" href={{route('page', [app()->getLocale(), 'payment' ])}}>{{ __('Payment and delivery') }}</a>
+						<a class="header__link  <?php if ($url == "/payment") { echo ' active';}?>" href={{route('page', [app()->getLocale(), 'payment' ])}}>{{ __('ОБУЧЕНИЕ') }}</a>
 					</li>
+				
 					<li class="header__link">
-						<a class="header__link  <?php if ($url == "/shares") { echo ' active';}?>" href={{route('page', [app()->getLocale(),'shares'])}}>{{ __('Shares') }}</a>
-					</li>
-					<li class="header__link">
-						<a class="header__link  <?php if ($url == "/recipes") { echo ' active';}?>" href={{route( 'recipes', [app()->getLocale()])}}>{{ __('Healthy recipes') }}</a>
+						<a class="header__link  <?php if ($url == "/recipes") { echo ' active';}?>" href={{route( 'recipes', [app()->getLocale()])}}>{{ __('НОВОСТИ') }}</a>
 					</li>
 					<li class="header__link">
 						<a class="header__link  <?php if ($url == "/about") { echo ' active';}?>" href={{route('page', [app()->getLocale(),'about'])}}>{{ __('About') }}</a>

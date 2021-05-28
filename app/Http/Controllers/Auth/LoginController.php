@@ -85,7 +85,7 @@ class LoginController extends Controller
 			]);
 		}
 		return $user;
-		Mail::to()->send(new UserCreated($user));
+		// Mail::to()->send(new UserCreated($user));
 		//Mail::send(new newMail());
 	}
 }

@@ -5,8 +5,15 @@ html {
 html,
 body {
 	height: 100%;
-	font-family: arial;
+	// font-family: arial;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #333;
 	
+}
+
+.centered {
+	text-align: center;
 }
 body {
 	background-color: #fff !important;
@@ -64,7 +71,8 @@ input[type="search"]::-webkit-search-decoration{
 .content {
 	padding-top: 120px;
 }
-a, a:visited{
+a, a:visited,
+a:hover{
 	text-decoration: none;
 	position: relative;
 }
@@ -98,18 +106,6 @@ a.breadcrumb__link:hover{
 }
 .content__text p {
 	margin-bottom: 20px;
-}
-.gotop,
-.go__search,
-.go__phone{
-	position: fixed;
-	width: 50px;
-	height: 50px;
-	background: rgba(255, 255, 255, 0.8);
-	bottom: 45px;
-	right: 50px;
-	box-shadow: -1px -1px 2px #edeff1,
-	2px 2px 3px #cacfd8;
 	text-decoration: none;
 	text-align: center;
 	line-height: 50px;

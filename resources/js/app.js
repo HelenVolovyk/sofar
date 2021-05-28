@@ -7,7 +7,8 @@
 require('./bootstrap');
 require('./header');
 require('./accordion');
-require('./search');
+// require('./search');
+require('./slick_one');
 require('./carousel');
 require('./btn');
 require('./owlCarousel');
@@ -19,6 +20,8 @@ require('./gotop');
 require('./components');
 require('./slider-for');
 require('./product_slider');
+require('./remAndSell');
+require('./footer');
 
 
 

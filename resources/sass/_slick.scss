@@ -1,0 +1,150 @@
+.slick__first{
+	width: 100%;
+	height: 100px;
+	@media(max-width:767px){
+		height: 80px;
+	}
+}
+.slick_cl__one{
+	display: flex;
+	flex-direction: row;
+	margin: 0% 5%;
+}
+.slick__one-item{
+	color: rgba(170,170,170);
+}
+.slick-prev, .slick-next{
+	display: none;
+}
+
+
+
+/* slick */
+.sl{
+	background-color: #fff;
+}
+.slick__container{
+	width: 50%;
+	margin: 0% 25%;
+	height: auto;
+	background-color: white;
+}
+@media(max-width:1200px){
+	.slick__container{
+		width: 70%;
+		margin: 0% 15%;
+	}
+}
+
+@media(max-width:500px){
+	.slick__container{
+		width: 100%;
+		margin: 0%;
+	}
+}
+
+button.slick-next.slick-arrow::before{
+	position: absolute;
+	left: 50px;
+	font-size: 30px;
+	color: rgb(219, 219, 219);
+	
+}
+button.slick-prev.slick-arrow::before{
+	position: absolute;
+	right: 50px;
+	font-size: 30px;
+	color: rgb(219, 219, 219);
+} 
+
+.slick{
+	position: relative;
+}
+
+i.fa.fa-quote-right {
+    color: rgb(233, 233, 233);
+    font-size: 130px;
+    font-weight: normal;
+    line-height: normal;
+	 bottom: 0%;
+	 left: 22%;
+	 z-index: -5;
+	 position: absolute;
+	 
+}
+.slick__img{
+	padding-top: 5px;
+	padding-left: 5px;
+	width: 100%;
+	height: 50%;
+	position: relative;
+}
+img.slick__img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	object-position: center;
+	width: 100%;
+	height: 100%;
+}
+
+p.line {
+	/* border-top: 2px solid #78d1d0; */
+	/* Параметры линии */
+	margin-right: 20px;
+	/* Отступ слева */
+	margin-left: 35%;
+	margin-bottom: 26px;
+	padding-top: 5px;
+	z-index: 10;
+	text-indent: 3.5em;
+  }
+
+.slick_cl p {
+    padding-top: 10px;
+    text-align: left;
+    color: rgb(114, 113, 113);
+	 font-style: italic;
+	 position: relative;
+	 height: 30%;
+}
+.slick_cl p::before{
+	display: block;
+	content: "";
+	background: rgba(0,0,0,0.15);
+	width: 60%;
+	height: 2px;
+	position: absolute;
+	left: 45%;
+	margin-left: -45px;
+	top: 0;
+}
+
+.slick_cl h6 {
+    color: rgb(136, 136, 136);
+    font-weight: 500;
+	 text-align: right;
+	 /* padding-top: 2%; */
+    padding-left: 50%; 
+    padding-right: 5%;
+	 bottom: 10%; 
+	
+}
+@media(max-width:767px){
+	.slick_cl h6 {
+		padding-left: 0%; 
+	}
+	p.line {
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+	button.slick-next.slick-arrow::before{
+		left:3px;
+	}
+	button.slick-prev.slick-arrow::before{
+		right: 3px;
+	} 
+}
+
+

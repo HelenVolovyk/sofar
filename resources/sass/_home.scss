@@ -63,3 +63,185 @@ a.more{
 		margin-bottom: 5em;
 	}
 }
+
+
+
+
+
+
+
+main {
+	margin-top: 1.5em;
+	background-color: #fafafa;
+	padding: 30px 0 60px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.wb{
+	padding-top: 10%;
+}
+
+#wb h2 {
+	font-size: calc(20px + 4 * (100vh / 1280));
+	padding: 0px 5px;
+}
+
+#wb p {
+	font-size: calc(16px + 6 * (100vh / 1280));
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	
+  
+}
+
+#wb p:before{
+  display: block;
+  content: "";
+  background: rgb(255,0,0);
+  width: 100px;
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  bottom: 0;
+}
+
+.lg_cont{
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+	position: relative;
+}
+
+.lg_cont span{
+	position: absolute;
+	transform: rotate(-78deg);
+	margin-top: -25px;
+	font-size: 17px;
+	letter-spacing: .5px;
+	
+	
+}
+@media(max-width:2000px){
+	.lg_cont span{
+	
+		margin-top: -25px;
+		font-size: 16.5px;
+		letter-spacing: .25px;
+		margin-left: 2px;
+		
+	}
+}
+@media(max-width:1600px){
+	.lg_cont span{
+	
+		margin-top: -25px;
+		font-size: 15.5px;
+		letter-spacing: .25px;
+		margin-left: 14px;
+		
+	}
+}
+@media(max-width:650px){
+	.lg_cont span{
+	
+		margin-top: -25px;
+		font-size: 15px;
+		letter-spacing: .25px;
+		margin-left: 55px;
+		
+	}
+}
+.sofar{
+	display: flex;
+	margin-top: 40px;
+}
+
+.sofar h2 {
+    color: rgb(219, 219, 219);
+	 /* font-size: 350px; */
+	 font-size: calc(250px + 100 * (100vh / 1280));
+	 
+	 letter-spacing: 25px;
+	 font-weight: bold;
+	 font-family: 'Passion One', cursive;
+}
+
+i.fa.fa-plus{
+	color:  rgb(219, 219, 219);
+	font-size: 15em;
+	padding-top: 10%;
+	
+}
+@media(max-width: 1200px){
+	i.fa.fa-plus{
+		/* font-size: 10em; */
+		padding-top: 13%;
+	}
+	.sofar h2 {
+		letter-spacing: 15px;
+		/* font-size: 13em; */
+  }
+}
+@media(max-width: 1024px){
+	i.fa.fa-plus{
+		padding-top: 12%;
+	}
+}
+@media(max-width: 800px){
+	i.fa.fa-plus{
+		font-size: 9em;
+		padding-top: 13%;
+	}
+	.sofar h2 {
+		letter-spacing: 10px;
+		/* font-size: 10em; */
+  }
+}
+@media(max-width: 630px){
+	i.fa.fa-plus{
+		font-size: 8em;
+		padding-top: 13%;
+	}
+	.sofar h2 {
+		letter-spacing: 10px;
+		/* font-size: 8em; */
+		
+  }
+  
+}
+@media(max-width: 400px){
+	/* i.fa.fa-plus{
+		font-size: 4.5em;
+		padding-top: 13%;
+	} */
+	.sofar h2 {
+		letter-spacing: 10px;
+		/* font-size: 250px; */
+		
+  }
+  
+}
+
+.sofar_text{
+ 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top:  10%;
+}
+
+.sofar_text p:before {
+	display: block;
+	content: "";
+	background: rgba(0,0,0,0.15);
+	width: 100px;
+	height: 3px;
+	position: absolute;
+	left: 50%;
+	margin-left: -50px;
+	bottom: 0;
+	
+}

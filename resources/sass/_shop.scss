@@ -23,7 +23,9 @@
 // 	background-color: #fff;
 // 	color: #33739E;
 // }
-
+.shop__content{
+	padding-top: 80px;
+}
 .shop__container{
 	width: 90%;
 	padding: 0 5%;
@@ -60,7 +62,7 @@ a.rec__link-shop{
 	ol.breadcrumb {
 		margin-bottom: 0;
 	}
-	.content {
+	.shop__content {
 		padding-bottom: 50px;
 	}
 }

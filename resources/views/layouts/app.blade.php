@@ -26,7 +26,9 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 	 <link rel="preconnect" href="https://fonts.gstatic.com">
-	 <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+	 {{-- <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet"> --}}
+	 <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Permanent+Marker&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Permanent+Marker&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
 	 
     <!-- Styles -->
    
@@ -99,7 +101,8 @@
 	 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 	 <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script> 
-	  <script defer src="{{ asset('js/owl.carousel.min.js') }}"></script> 
+	  <script defer src="{{ asset('js/owl.carousel.min.js') }}"></script>
+	  <script type="text/javascript" src="{{ asset('slick/slick.min.js') }}"></script> 
 	  <script defer src="{{ asset('slick/slick.js') }}"></script> 
 	  
 	  {{-- <script defer src="{{ asset('js/jquery.flexslider.js') }}"></script> 

@@ -3,28 +3,34 @@
 	 
 <div class="name">
 	
-		<nav class="name navbar navbar-expand-md navbar-light bg-white shadow-sm">
+		<nav class="name navbar navbar-expand-md navbar-light bg-white ">
 			
 			<div class="container-fluid">
 				
 			  <!-- Right Side Of Navbar -->
-			<div class="header__burger">
-				<span></span>
-				<span></span>
-				<span></span>
-			</div> 
+		
+			<div class="med__s">
+				<span>
+					медицинское и косметологическое оборудование
+				</span>
+			</div>
 
-			<a  href="{{ url('/') }}" class="logo">
-			
-				<img src="{{Storage::disk('public')->url($otherimages->find(11)->img_src)}}" alt="" width="90px" height="60px">
-			
-			</a>
+
+			<div class="header__logo ">
+				<a  href="{{ url('/') }}" class="">
+					 <img src="{{asset('storage/x8/dY/Hy/xE/TmTTLylDhQt9nK7z_1619778727.png')}}" alt="" >
+				</a>
+			</div>
+	<div class="med">
+		<span class="">медицинское и косметологическое оборудование</span>
+	</div>
 
 		
 		
 		
 		
   <!-- Lang -->
+  <div class="">
   <ul class="navbar-nav ml-auto ">
 
 
@@ -134,10 +140,20 @@
 						@endif 
 				</div>  
 			</div>
+			<li class="nav-item">
+			<a class="nav-link">
+				<div class="header__burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div> 
+			</a>
+			</li>
 		</div>
 			
 		 </ul>
-
+		</div>
+			
 			</div>
 		</nav>
 	</div>

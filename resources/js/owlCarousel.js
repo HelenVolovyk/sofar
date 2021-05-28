@@ -16,6 +16,8 @@ $(window).on('load', function(){
 		loop: true,
 		margin:10,
 		animateOut: "fadeOut",
+		
+		
 		//  stagePadding: 5,
 		navText: [
 			nextIcon,

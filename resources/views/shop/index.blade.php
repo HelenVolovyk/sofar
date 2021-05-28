@@ -6,7 +6,7 @@
 
 @section('content')
 
-<div class="content">
+<div class="shop__content">
 	<div class="shop__container" >
 		<div class="top row" style="margin: 0" >
 			<div class="bread col-auto mr-auto" >
